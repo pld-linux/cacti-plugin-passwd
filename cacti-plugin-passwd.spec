@@ -11,6 +11,7 @@ Source0:	http://gilles.boulon.free.fr/passwd/%{plugin}-0.1-modified-%{version}.z
 # Source0-md5:	8c94eefb399b3b904e6c0ba5994d752c
 URL:		http://forums.cacti.net/about14751.html
 BuildRequires:	rpm-perlprov
+BuildRequires:	unzip
 Requires:	cacti
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
