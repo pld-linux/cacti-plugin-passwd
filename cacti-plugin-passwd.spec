@@ -1,6 +1,5 @@
 %define		plugin	passwd
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Plugin for Cacti - passwd
 Summary(pl.UTF-8):	Wtyczka do Cacti - passwd
 Name:		cacti-plugin-passwd
